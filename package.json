@@ -1,7 +1,13 @@
 {
-  "name": "cv",
+  "name": "bearsoft-webpage",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "BearSoft's website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
   "author": "Luis Manuel Torres Trevino <lmtorres123@icloud.com>",
   "license": "MIT",
   "dependencies": {
